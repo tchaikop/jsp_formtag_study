@@ -8,6 +8,8 @@
 </head>
 <body>
 	<%
+	
+	request.setCharacterEncoding("utf-8");  // 내용을 삐기전에 세팅을 먼저 하는 명령어
 		
 	String mid	= request.getParameter("mid");
 	System.out.println(mid);
