@@ -16,6 +16,8 @@
 	for(i=0;i<f.nickname.value.length;i++) {	
 		//닉네임은 영문 대문자로만 입력 가능
 		if(!(f.nickname.value.charAt(i)>='A' && f.nickname.value.charAt(i) <='Z')) {
+			// 자바스크립트는 int i=0 같이 int를 안쓴다
+			
 			alert("대문자로만 입력");
 			f.nickname.focus();
 			return false;
